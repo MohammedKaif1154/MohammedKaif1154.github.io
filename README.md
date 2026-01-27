@@ -1,6 +1,15 @@
-# Hi 👋, I'm Mohammed Kaif 
+<p align="center">
+  <img src="github-banner.png" width="100%" />
+</p>
 
-🚀 Aspiring **Data Scientist & Software Developer** with strong skills in Python, Machine Learning, Power BI, and Microsoft Azure. Passionate about turning data into actionable insights and building intelligent, scalable solutions.
+# Hi 👋, I'm Mohammed Kaif  
+### Data Scientist | Cloud & Analytics  
+
+🚀 Aspiring **Data Scientist & Software Developer** with strong skills in Python, Machine Learning, Power BI, and Microsoft Azure.
+
+<p align="center">
+  <img src="profile.jpeg" width="180" />
+</p>
 
 ---
 
