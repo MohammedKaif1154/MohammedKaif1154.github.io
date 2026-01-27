@@ -11,10 +11,10 @@ body {
   line-height: 1.6;
 }
 
-/* HERO */
+/* HERO SECTION */
 .hero {
   text-align: center;
-  padding: 120px 20px;
+  padding: 140px 20px;
   background-image: url("github-banner.png");
   background-size: cover;
   background-position: center;
@@ -22,26 +22,43 @@ body {
   position: relative;
 }
 
+/* DARK OVERLAY */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
 
+/* MAKE HERO CONTENT VISIBLE */
+.hero * {
+  position: relative;
+  z-index: 1;
+}
+
+/* PROFILE IMAGE */
 .profile-img {
   width: 160px;
   border-radius: 50%;
   margin-bottom: 20px;
-  border: 4px solid #fff;
+  border: 3px solid #38bdf8;
 }
 
+/* HERO TEXT */
 .hero h1 {
-  font-size: 36px;
+  font-size: 38px;
+  margin-bottom: 8px;
 }
 
 .hero h2 {
   font-size: 20px;
-  margin: 10px 0;
+  margin-bottom: 15px;
+  color: #bae6fd;
 }
 
 .hero p {
   max-width: 600px;
-  margin: 10px auto 30px;
+  margin: 0 auto 30px;
 }
 
 /* BUTTONS */
@@ -49,16 +66,26 @@ body {
   text-decoration: none;
   color: #0f172a;
   background: #fff;
-  padding: 12px 22px;
+  padding: 12px 24px;
   margin: 5px;
-  border-radius: 25px;
+  border-radius: 30px;
   font-weight: bold;
+  display: inline-block;
+}
+
+.buttons a:hover {
+  background: #38bdf8;
 }
 
 .buttons .secondary {
   background: transparent;
   border: 2px solid #fff;
   color: #fff;
+}
+
+.buttons .secondary:hover {
+  background: #fff;
+  color: #0f172a;
 }
 
 /* SECTIONS */
@@ -87,7 +114,7 @@ body {
 .skills div {
   background: #020617;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 12px;
 }
 
 /* PROJECTS */
@@ -99,14 +126,15 @@ body {
 
 .card {
   background: #020617;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 22px;
+  border-radius: 12px;
 }
 
 .card span {
   display: block;
   margin-top: 10px;
   color: #38bdf8;
+  font-weight: bold;
 }
 
 /* FOOTER */
