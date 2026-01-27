@@ -19,7 +19,7 @@
 ---
 
 ## 🔗 Quick Links  
-- 📄 Resume: (add Google Drive link later)  
+- 📄 Resume:   
 - 💼 LinkedIn: https://www.linkedin.com/in/kaifalishaikh  
 - 📧 Email: s.kaifali786@gmail.com  
 
