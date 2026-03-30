@@ -1,19 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Mohammed Kaif Shaikh | Data Scientist</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohammed Kaif Shaikh | Data Scientist</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #f1f5f9;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.profile-img {
+  width: 130px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+h1 { font-size: 32px; margin: 10px 0; }
+h2 { color: #38bdf8; margin-bottom: 10px; }
+
+.buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 6px;
+  background: #38bdf8;
+  color: black;
+  font-weight: bold;
+}
+
+.buttons .secondary {
+  background: transparent;
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+}
+
+.section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.light {
+  background: #1e293b;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skills div {
+  flex: 1;
+  min-width: 200px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card span {
+  color: #38bdf8;
+  font-size: 14px;
+}
+
+a {
+  color: #38bdf8;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  background: #020617;
+}
+</style>
 </head>
+
 <body>
 
-<!-- HERO SECTION -->
+<!-- HERO -->
 <section class="hero">
-  <img src="profile.jpeg" class="profile-img" alt="Mohammed Kaif">
+  <img src="profile.jpeg" class="profile-img" alt="Kaif">
   <h1>Mohammed Kaif Shaikh</h1>
-  <h2>Data Scientist | Cloud & Analytics</h2>
-  <p>Turning data into meaningful insights using Machine Learning, Analytics & Azure.</p>
+  <h2>Data Scientist | ML & Analytics</h2>
+  <p>Turning data into meaningful insights using Machine Learning, Analytics & Cloud.</p>
 
   <div class="buttons">
     <a href="#projects">View Projects</a>
@@ -25,9 +114,9 @@
 <section class="section">
   <h3>About Me</h3>
   <p>
-    I’m a Data Scientist with hands-on experience in machine learning, analytics,
-    Power BI, and Microsoft Azure. I enjoy solving real-world problems where data,
-    cloud, and analytics come together to support smarter business decisions.
+    I’m a Data Science enthusiast with hands-on experience in machine learning,
+    analytics, Power BI, and cloud technologies. I enjoy solving real-world
+    problems using data-driven approaches and building interactive applications.
   </p>
 </section>
 
@@ -38,17 +127,17 @@
   <div class="skills">
     <div>
       <h4>Data Science</h4>
-      <p>Python, Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch</p>
+      <p>Python, Pandas, NumPy, Scikit-learn</p>
     </div>
 
     <div>
-      <h4>Analytics & BI</h4>
-      <p>Power BI, SQL, Excel, Data Visualization, EDA</p>
+      <h4>Visualization</h4>
+      <p>Power BI, Matplotlib, Seaborn</p>
     </div>
 
     <div>
-      <h4>Cloud</h4>
-      <p>Microsoft Azure, VM, Storage, Networking, Security</p>
+      <h4>Tools & Cloud</h4>
+      <p>SQL, Streamlit, Microsoft Azure</p>
     </div>
   </div>
 </section>
@@ -58,47 +147,76 @@
   <h3>Projects</h3>
 
   <div class="projects">
+
     <div class="card">
-      <h4>NGO Data Analysis & Visualization</h4>
+      <h4>Netflix Data Analysis & Visualization</h4>
       <p>
-        Built a Python-based data pipeline connected to SQL Server,
-        performed EDA, and generated insights for NGO initiatives.
+        • Performed EDA using Python to identify content trends <br>
+        • Built dashboards using Power BI, Matplotlib, Seaborn <br>
+        • Developed Streamlit app for interactive insights <br>
+        • Analyzed genres, ratings, global distribution
       </p>
-      <span>Python · SQL · Power BI</span>
+      <span>Python · Power BI · Streamlit</span>
     </div>
 
     <div class="card">
-      <h4>Sales Analysis Dashboard</h4>
+      <h4>Fraud Detection System</h4>
       <p>
-        Created an interactive Power BI dashboard to analyze
-        sales performance and customer behavior.
+        • Built ML models (Logistic Regression, Random Forest, XGBoost) <br>
+        • Used SMOTE for class imbalance <br>
+        • Achieved 96% accuracy <br>
+        • Deployed using Streamlit for real-time prediction
       </p>
-      <span>Power BI · SQL · Analytics</span>
+      <span>Machine Learning · Python · Streamlit</span>
     </div>
+
+    <div class="card">
+      <h4>Resume Screening System (NLP)</h4>
+      <p>
+        • Developed NLP-based resume filtering system <br>
+        • Applied preprocessing and text analysis <br>
+        • Used similarity matching for classification <br>
+        • Built Streamlit UI for resume upload
+      </p>
+      <span>NLP · Python · Streamlit</span>
+    </div>
+
   </div>
 </section>
 
-<!-- EXPERIENCE -->
+<!-- EDUCATION -->
 <section class="section light">
+  <h3>Education</h3>
+
+  <p><strong>Master of Computer Applications (MCA)</strong></p>
+  <p>
+    • Specializing in Data Science, Machine Learning, and Software Development <br>
+    • Working on real-world projects using Python, SQL, and Cloud
+  </p>
+
+  <p><strong>Bachelor of Computer Science</strong></p>
+  <p>Savitribai Phule Pune University</p>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section">
   <h3>Experience</h3>
+
   <p><strong>Data Science Intern – Softools Computer</strong></p>
   <p>
-    Worked on data cleaning, exploratory analysis, predictive models,
-    and Power BI dashboards to support business decisions.
+    • Data cleaning & preprocessing using Python <br>
+    • Performed EDA and built dashboards in Power BI <br>
+    • Assisted in ML model development
   </p>
 </section>
 
 <!-- CONTACT -->
-<section class="section" id="contact">
+<section class="section light" id="contact">
   <h3>Contact</h3>
-  <p>Email: <a href="mailto:s.kaifali786@gmail.com">s.kaifali786@gmail.com</a></p>
-  <p>LinkedIn: 
-    <a href="https://www.linkedin.com/in/kaifalishaikh" target="_blank">
-      View Profile
-    </a>
-  </p>
-</section>
 
+  <p>Email: <a href="mailto:s.kaifali786@gmail.com">s.kaifali786@gmail.com</a></p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/kaifalishaikh" target="_blank">View Profile</a></p>
+</section>
 
 <footer>
   <p>© 2026 Mohammed Kaif Shaikh</p>
