@@ -57,18 +57,19 @@ body {
   text-align: center;
 }
 
-.about h2 {
-  font-size: 30px;
-  margin-bottom: 30px;
-}
-
+/* CENTER THE BOX */
 .about-container {
   max-width: 900px;
-  margin: auto;
+  margin: 40px auto;
   background: rgba(255,255,255,0.05);
   padding: 30px;
   border-radius: 12px;
   border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* TEXT FIX */
+.about-text {
+  text-align: left;   /* keeps readability */
 }
 
 .about-text p {
