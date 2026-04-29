@@ -52,6 +52,32 @@ body {
   color: #cbd5f5;
 }
 
+.about {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: auto;
+  background: rgba(255,255,255,0.05);
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #cbd5f5;
+  margin-bottom: 15px;
+}
+
 /* SKILLS */
 /* SKILLS SECTION */
 .skills {
