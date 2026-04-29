@@ -304,6 +304,32 @@ h2 {
   50% { opacity: 0; }
 }
 
+                                /* 🔥 ANIMATED BACKGROUND */
+body {
+  font-family: Arial;
+  margin: 0;
+  background: linear-gradient(-45deg, #0f172a, #1e293b, #312e81, #0f172a);
+  background-size: 400% 400%;
+  animation: gradientMove 12s ease infinite;
+  color: white;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+                 /* 🔥 GLASS EFFECT */
+.card,
+.cert-card,
+.skill-card,
+.about-container {
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.08);
+}  
+
+
 /* ================= MOBILE ================= */
 @media (max-width: 768px) {
   .hero-container {
