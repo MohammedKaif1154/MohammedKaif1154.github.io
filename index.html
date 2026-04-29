@@ -1,61 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Kaif Portfolio</title>
+  <title>Mohammed Kaif | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<!-- NAVBAR -->
 <nav class="navbar">
-  <h2>Mohammed Kaif Shaikh</h2>
+  <h2>Kaif</h2>
   <ul>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#skills">Skills</a></li>
   </ul>
 </nav>
-  
+
+<!-- HERO -->
 <section class="hero">
-  <h1>Mohammed Kaif Shaikh</h1>
-  <p>Data Scientist</p>
+  <h1>Mohammed Kaif</h1>
+  <p class="role">Data Scientist</p>
   <p id="typing"></p>
 </section>
 
+<!-- SKILLS -->
+<section id="skills" class="skills">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div>Python</div>
+    <div>SQL</div>
+    <div>Power BI</div>
+    <div>Azure</div>
+    <div>Pandas</div>
+    <div>Scikit-learn</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
 <section id="projects">
   <h2>Projects</h2>
 
   <div class="project-container">
 
     <div class="card">
-  <h3>Resume Screening App</h3>
-  <p>AI model to filter resumes based on job requirements.</p>
-  <p><b>Tech:</b> Python, NLP, ML</p>
+      <h3>Resume Screening App</h3>
+      <p>AI model to filter resumes based on job requirements.</p>
+      <p><b>Tech:</b> Python, NLP, ML</p>
+      <div class="buttons">
+        <a href="https://github.com/MohammedKaif1154/resume-screening-app">GitHub</a>
+      </div>
+    </div>
 
-  <div class="buttons">
-    <a href="https://github.com/MohammedKaif1154/resume-screening-app">GitHub</a>
+    <div class="card">
+      <h3>Fraud Detection MLOps</h3>
+      <p>End-to-end ML pipeline for fraud detection.</p>
+      <p><b>Tech:</b> Python, ML, Deployment</p>
+      <div class="buttons">
+        <a href="https://github.com/MohammedKaif1154/fraud-detection-mlops">GitHub</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Netflix Data Analysis</h3>
+      <p>Exploratory analysis on Netflix dataset.</p>
+      <p><b>Tech:</b> Python, Pandas, Visualization</p>
+      <div class="buttons">
+        <a href="https://github.com/MohammedKaif1154/Netflix-Data-Analysis">GitHub</a>
+      </div>
+    </div>
+
   </div>
-</div>
-
-<div class="card">
-  <h3>Fraud Detection MLOps</h3>
-  <p>End-to-end ML pipeline for fraud detection.</p>
-  <p><b>Tech:</b> Python, ML, Deployment</p>
-
-  <div class="buttons">
-    <a href="https://github.com/MohammedKaif1154/fraud-detection-mlops">GitHub</a>
-  </div>
-</div>
-
-<div class="card">
-  <h3>Netflix Data Analysis</h3>
-  <p>Exploratory data analysis on Netflix dataset.</p>
-  <p><b>Tech:</b> Python, Pandas, Visualization</p>
-
-  <div class="buttons">
-    <a href="https://github.com/MohammedKaif1154/Netflix-Data-Analysis">GitHub</a>
-  </div>
-</div>
-    
 </section>
 
 <script src="script.js"></script>
+
 </body>
 </html>
