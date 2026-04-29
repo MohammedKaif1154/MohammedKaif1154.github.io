@@ -298,3 +298,15 @@ body {
 .buttons a:hover {
   transform: scale(1.05);
 }
+
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image img {
+    width: 200px;
+    height: 200px;
+  }
+}
