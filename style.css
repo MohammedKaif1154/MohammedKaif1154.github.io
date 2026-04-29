@@ -153,6 +153,50 @@ body {
   gap: 30px;
 }
 
+.certifications {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.certifications h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.cert-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+  justify-content: center;
+  gap: 30px;
+}
+
+/* CARD */
+.cert-card {
+  background: rgba(255,255,255,0.05);
+  border-radius: 14px;
+  padding: 15px;
+  transition: 0.3s;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* IMAGE */
+.cert-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* TEXT */
+.cert-card p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #cbd5f5;
+}
+
+/* HOVER */
+.cert-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
 /* CARD (MAIN UPGRADE) */
 .card {
   background: rgba(255,255,255,0.05);
