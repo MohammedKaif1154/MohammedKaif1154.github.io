@@ -26,20 +26,42 @@ body {
 }
 
 /* HERO */
+/* HERO LAYOUT */
 .hero {
-  text-align: center;
-  padding: 140px 20px;
+  padding: 100px 20px;
 }
 
-.hero h1 {
-  font-size: 48px;
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+/* IMAGE */
+.hero-image img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid rgba(255,255,255,0.1);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+}
+
+/* TEXT */
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
 }
 
 .role {
   color: #94a3b8;
-}
-.hero-buttons {
-  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .btn, .btn-outline {
