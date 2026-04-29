@@ -240,3 +240,14 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+
+#typing::after {
+  content: "|";
+  animation: blink 1s infinite;
+  margin-left: 5px;
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
