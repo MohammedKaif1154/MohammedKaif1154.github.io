@@ -38,7 +38,38 @@ body {
 .role {
   color: #94a3b8;
 }
+.hero-buttons {
+  margin-top: 20px;
+}
 
+.btn, .btn-outline {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.btn {
+  background: linear-gradient(45deg, #3b82f6, #6366f1);
+  color: white;
+}
+
+.btn-outline {
+  border: 1px solid white;
+  color: white;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn-outline:hover {
+  background: white;
+  color: black;
+}
 /* ABOUT */
 .about {
   padding: 80px 20px;
