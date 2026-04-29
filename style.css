@@ -21,7 +21,6 @@ body {
   text-align: center;
 }
 
-/* 🔥 THIS FIXES YOUR MAIN PROBLEM */
 .project-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
