@@ -1,18 +1,43 @@
 body {
   font-family: Arial;
   margin: 0;
-  background: #f5f5f5;
+  background: #f9fafb;
 }
 
+/* HERO */
 .hero {
   text-align: center;
-  padding: 80px;
+  padding: 100px 20px;
   background: white;
 }
 
+.hero h1 {
+  font-size: 40px;
+}
+
+/* PROJECT SECTION */
+#projects {
+  padding: 50px;
+  text-align: center;
+}
+
+/* 🔥 THIS FIXES YOUR MAIN PROBLEM */
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+  justify-content: center;   /* center cards */
+  gap: 20px;
+}
+
+/* CARD DESIGN */
 .card {
   background: white;
-  margin: 20px;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 12px;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.card:hover {
+  transform: translateY(-8px);
 }
