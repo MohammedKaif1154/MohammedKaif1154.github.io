@@ -229,3 +229,14 @@ body {
   color: #60a5fa;
   transform: scale(1.2);
 }
+
+.fade {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.6s ease;
+}
+
+.fade.show {
+  opacity: 1;
+  transform: translateY(0);
+}
