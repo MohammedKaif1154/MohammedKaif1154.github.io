@@ -29,13 +29,9 @@ body {
 
 /* CARD DESIGN */
 .card {
-  background: white;
-  padding: 20px;
-  border-radius: 12px;
-  transition: 0.3s;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  max-width: 350px;
+  margin: auto;   /* centers each card */
 }
-
 .card:hover {
   transform: translateY(-8px);
 }
