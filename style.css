@@ -29,13 +29,17 @@ body {
 
 /* CARD DESIGN */
 .card {
-  max-width: 350px;
-  margin: auto;   /* centers each card */
-}
-.card:hover {
-  transform: translateY(-8px);
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
 }
 
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
 .buttons {
   margin-top: 10px;
 }
