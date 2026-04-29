@@ -198,17 +198,27 @@ body {
   padding: 80px 20px;
 }
 
+.contact h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/* CENTER THE ICONS */
 .social-links {
+  display: flex;
+  justify-content: center;   /* 🔥 CENTER */
+  align-items: center;
+  gap: 25px;                 /* spacing */
   margin-top: 20px;
 }
 
 .social-links a {
-  font-size: 28px;
-  margin: 0 15px;
-  color: white;
-  transition: 0.3s;
+  background: rgba(255,255,255,0.05);
+  padding: 12px;
+  border-radius: 50%;
 }
 
+/* HOVER EFFECT */
 .social-links a:hover {
   color: #60a5fa;
   transform: scale(1.2);
