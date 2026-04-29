@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "I build machine learning solutions.",
     "I work with Python, SQL, and Azure.",
     "I create data-driven applications.",
-    "I love solving real-world problems with AI."
+    "I solve real-world problems using AI."
   ];
 
   let textIndex = 0;
@@ -26,17 +26,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let speed = isDeleting ? 40 : 70;
 
-    // When full text typed
     if (!isDeleting && charIndex === currentText.length) {
-      speed = 1500;  // pause
+      speed = 1200;
       isDeleting = true;
-    }
-
-    // When fully deleted
-    else if (isDeleting && charIndex === 0) {
+    } else if (isDeleting && charIndex === 0) {
       isDeleting = false;
       textIndex = (textIndex + 1) % texts.length;
-      speed = 500;
+      speed = 400;
     }
 
     setTimeout(typeEffect, speed);
@@ -45,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
   typeEffect();
 
 
-  // 🔥 SCROLL ANIMATION (keep this)
+  // SCROLL ANIMATION
   const elements = document.querySelectorAll(".fade");
 
   function showOnScroll() {
