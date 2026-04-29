@@ -79,3 +79,6 @@ body {
   text-decoration: none;
   color: black;
 }
+html {
+  scroll-behavior: smooth;
+}
