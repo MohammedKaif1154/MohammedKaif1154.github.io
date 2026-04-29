@@ -53,45 +53,66 @@ body {
 }
 
 /* SKILLS */
+/* SKILLS SECTION */
 .skills {
   text-align: center;
-  padding: 60px;
+  padding: 80px 20px;
 }
 
 .skills h2 {
-  font-size: 28px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  font-size: 30px;
 }
 
+/* GRID CENTER FIX */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 20px;
-  max-width: 800px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 25px;
+  max-width: 900px;
   margin: auto;
 }
 
+/* CARD */
 .skill-card {
   background: rgba(255,255,255,0.05);
-  padding: 20px;
-  border-radius: 12px;
+  padding: 25px 15px;
+  border-radius: 14px;
   transition: 0.3s;
   border: 1px solid rgba(255,255,255,0.1);
+  text-align: center;
 }
 
+/* ICON FIX (THIS IS KEY) */
 .skill-card i {
-  font-size: 28px;
+  font-size: 30px;
   margin-bottom: 10px;
-  color: #60a5fa;
+  display: block;
 }
 
+/* TEXT */
+.skill-card p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* HOVER EFFECT */
 .skill-card:hover {
   transform: translateY(-8px) scale(1.05);
 }
-.skill-card p {
-  margin-top: 8px;
-  font-size: 14px;
-}
+
+/* 🔥 COLOR EACH ICON */
+.fa-python { color: #facc15; }
+.fa-database { color: #22c55e; }
+.fa-chart-bar { color: #3b82f6; }
+.fa-cloud { color: #38bdf8; }
+.fa-brain { color: #a855f7; }
+.fa-robot { color: #f43f5e; }
+.fa-cogs { color: #f97316; }
+.fa-network-wired { color: #10b981; }
+.fa-git-alt { color: #ef4444; }
+
+
 /* PROJECTS */
 #projects {
   padding: 60px;
